@@ -14,10 +14,10 @@
 		3E0E78441A754AB200BDD21E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E78431A754AB200BDD21E /* Images.xcassets */; };
 		3E0E78471A754AB200BDD21E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E78451A754AB200BDD21E /* LaunchScreen.xib */; };
 		3E0E78531A754AB200BDD21E /* CVTipsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E78521A754AB200BDD21E /* CVTipsDemoTests.m */; };
-		3E0E78641A754ACB00BDD21E /* CVTipsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E785D1A754ACB00BDD21E /* CVTipsController.m */; };
-		3E0E78651A754ACB00BDD21E /* CVTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E785F1A754ACB00BDD21E /* CVTipView.m */; };
-		3E0E78661A754ACB00BDD21E /* CVTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E78611A754ACB00BDD21E /* CVTip.m */; };
-		3E0E78671A754ACB00BDD21E /* CVTipCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E78631A754ACB00BDD21E /* CVTipCache.m */; };
+		3E4C358C1AA211B800CCDFE7 /* CVTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C35851AA211B800CCDFE7 /* CVTip.m */; };
+		3E4C358D1AA211B800CCDFE7 /* CVTipCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C35871AA211B800CCDFE7 /* CVTipCache.m */; };
+		3E4C358E1AA211B800CCDFE7 /* CVTipsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C35891AA211B800CCDFE7 /* CVTipsController.m */; };
+		3E4C358F1AA211B800CCDFE7 /* CVTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C358B1AA211B800CCDFE7 /* CVTipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +44,14 @@
 		3E0E784C1A754AB200BDD21E /* CVTipsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVTipsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0E78511A754AB200BDD21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E0E78521A754AB200BDD21E /* CVTipsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVTipsDemoTests.m; sourceTree = "<group>"; };
-		3E0E785C1A754ACB00BDD21E /* CVTipsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTipsController.h; sourceTree = "<group>"; };
-		3E0E785D1A754ACB00BDD21E /* CVTipsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTipsController.m; sourceTree = "<group>"; };
-		3E0E785E1A754ACB00BDD21E /* CVTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTipView.h; sourceTree = "<group>"; };
-		3E0E785F1A754ACB00BDD21E /* CVTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTipView.m; sourceTree = "<group>"; };
-		3E0E78601A754ACB00BDD21E /* CVTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTip.h; sourceTree = "<group>"; };
-		3E0E78611A754ACB00BDD21E /* CVTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTip.m; sourceTree = "<group>"; };
-		3E0E78621A754ACB00BDD21E /* CVTipCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTipCache.h; sourceTree = "<group>"; };
-		3E0E78631A754ACB00BDD21E /* CVTipCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTipCache.m; sourceTree = "<group>"; };
+		3E4C35841AA211B800CCDFE7 /* CVTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVTip.h; path = ../../CVTips/CVTip.h; sourceTree = "<group>"; };
+		3E4C35851AA211B800CCDFE7 /* CVTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVTip.m; path = ../../CVTips/CVTip.m; sourceTree = "<group>"; };
+		3E4C35861AA211B800CCDFE7 /* CVTipCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVTipCache.h; path = ../../CVTips/CVTipCache.h; sourceTree = "<group>"; };
+		3E4C35871AA211B800CCDFE7 /* CVTipCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVTipCache.m; path = ../../CVTips/CVTipCache.m; sourceTree = "<group>"; };
+		3E4C35881AA211B800CCDFE7 /* CVTipsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVTipsController.h; path = ../../CVTips/CVTipsController.h; sourceTree = "<group>"; };
+		3E4C35891AA211B800CCDFE7 /* CVTipsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVTipsController.m; path = ../../CVTips/CVTipsController.m; sourceTree = "<group>"; };
+		3E4C358A1AA211B800CCDFE7 /* CVTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVTipView.h; path = ../../CVTips/CVTipView.h; sourceTree = "<group>"; };
+		3E4C358B1AA211B800CCDFE7 /* CVTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVTipView.m; path = ../../CVTips/CVTipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,14 +135,14 @@
 		3E0E78681A754AD400BDD21E /* CVTips */ = {
 			isa = PBXGroup;
 			children = (
-				3E0E785C1A754ACB00BDD21E /* CVTipsController.h */,
-				3E0E785D1A754ACB00BDD21E /* CVTipsController.m */,
-				3E0E785E1A754ACB00BDD21E /* CVTipView.h */,
-				3E0E785F1A754ACB00BDD21E /* CVTipView.m */,
-				3E0E78601A754ACB00BDD21E /* CVTip.h */,
-				3E0E78611A754ACB00BDD21E /* CVTip.m */,
-				3E0E78621A754ACB00BDD21E /* CVTipCache.h */,
-				3E0E78631A754ACB00BDD21E /* CVTipCache.m */,
+				3E4C35841AA211B800CCDFE7 /* CVTip.h */,
+				3E4C35851AA211B800CCDFE7 /* CVTip.m */,
+				3E4C35861AA211B800CCDFE7 /* CVTipCache.h */,
+				3E4C35871AA211B800CCDFE7 /* CVTipCache.m */,
+				3E4C35881AA211B800CCDFE7 /* CVTipsController.h */,
+				3E4C35891AA211B800CCDFE7 /* CVTipsController.m */,
+				3E4C358A1AA211B800CCDFE7 /* CVTipView.h */,
+				3E4C358B1AA211B800CCDFE7 /* CVTipView.m */,
 			);
 			name = CVTips;
 			sourceTree = "<group>";
@@ -247,13 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E0E78661A754ACB00BDD21E /* CVTip.m in Sources */,
-				3E0E78651A754ACB00BDD21E /* CVTipView.m in Sources */,
+				3E4C358D1AA211B800CCDFE7 /* CVTipCache.m in Sources */,
+				3E4C358C1AA211B800CCDFE7 /* CVTip.m in Sources */,
 				3E0E783F1A754AB200BDD21E /* ViewController.m in Sources */,
 				3E0E783C1A754AB200BDD21E /* AppDelegate.m in Sources */,
-				3E0E78671A754ACB00BDD21E /* CVTipCache.m in Sources */,
-				3E0E78641A754ACB00BDD21E /* CVTipsController.m in Sources */,
+				3E4C358E1AA211B800CCDFE7 /* CVTipsController.m in Sources */,
 				3E0E78391A754AB200BDD21E /* main.m in Sources */,
+				3E4C358F1AA211B800CCDFE7 /* CVTipView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +444,7 @@
 				3E0E78581A754AB200BDD21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E0E78591A754AB200BDD21E /* Build configuration list for PBXNativeTarget "CVTipsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +453,7 @@
 				3E0E785B1A754AB200BDD21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
