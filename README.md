@@ -2,6 +2,8 @@
 
 CVTips are presentable tips that overlay the screen's content - great for onboarding. The tips animate in and collide when the user drags the tips around. 
 
+You can see CVTips in action in [Dwindle](https://itunes.apple.com/us/app/dwindle-minimalistic-countdown/id881723551?mt=8).
+
 ## Installation
 
 If you use [cocoapods](cocoapods.org) (you should), installation is easy.
