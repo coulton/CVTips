@@ -1,11 +1,14 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'CVTips'
-  spec.version      = '0.1'
-  spec.license      = { :type => 'BSD' }
-  spec.homepage     = 'https://github.com/coultonvento/CVTips'
-  spec.authors      = { 'Coulton Vento' => 'me@coultonvento.com' }
-  spec.summary      = 'An interface for displaying interactive tips.'
-  spec.source       = { :git => 'https://github.com/coultonvento/CVTips.git', :tag => 'v0.1' }
-  spec.source_files = 'CVTips/*.{h,m}'
-  spec.framework    = 'UIKit', 'Foundation'
+  spec.name             = 'CVTips'
+  spec.version          = '0.1'
+  spec.license          = { :type => 'MIT', :file => 'LICENSE.txt' }
+  spec.homepage         = 'https://github.com/coultonvento/CVTips'
+  spec.author           = { 'Coulton Vento' => 'me@coultonvento.com' }
+  spec.social_media_url = "http://twitter.com/coultonvento"
+  spec.summary          = 'An interface for displaying interactive tips.'
+  spec.source           = { :git => 'https://github.com/coultonvento/CVTips.git', :tag => 'v0.1' }
+  spec.source_files     = 'CVTips/*.{h,m}'
+  spec.framework        = 'UIKit', 'Foundation'
+  spec.platform         = :ios, "8.1"
+  spec.requires_arc     = true
 end
