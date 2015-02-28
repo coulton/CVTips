@@ -29,14 +29,14 @@ NSString * kCVTipCacheObject = @"CVTipSharedCache";
     [[NSUserDefaults standardUserDefaults] setObject:@[] forKey:kCVTipCacheObject];
 }
 
-- (void)displayedTips:(NSArray*)tips
+- (void)displayedTips:(NSArray *)tips
 {
     for (CVTip *tip in tips) {
         [self displayedTip:tip];
     }
 }
 
-- (void)displayedTip:(CVTip*)tip
+- (void)displayedTip:(CVTip *)tip
 {
     if (![tip isKindOfClass:[CVTip class]]) return;
     

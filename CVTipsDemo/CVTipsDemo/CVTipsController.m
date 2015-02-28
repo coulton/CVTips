@@ -20,16 +20,18 @@ static const CGFloat kCVTipBoxGravity = 4;
 typedef void (^CVTipsAnimatedOut)();
 
 @interface CVTipsController ()
+
 @property (nonatomic) UIDynamicAnimator *animator;
 @property (nonatomic) UIAttachmentBehavior *attachmentBehavior;
 
 @property (nonatomic, assign) CGRect originalBounds;
 @property (nonatomic, assign) CGPoint originalCenter;
-@property (nonatomic, strong) NSArray *tips;
-@property (nonatomic, strong) NSMutableArray *boxes;
+@property (nonatomic) NSArray *tips;
+@property (nonatomic) NSMutableArray *boxes;
 
-@property (nonatomic, strong) UIVisualEffectView *backgroundView;
-@property (readonly) UIWindow *window;
+@property (nonatomic) UIVisualEffectView *backgroundView;
+@property (nonatomic, readonly) UIWindow *window;
+
 @end
 
 @implementation CVTipsController
@@ -201,7 +203,8 @@ typedef void (^CVTipsAnimatedOut)();
     return ^{
         BOOL offscreen = ^{
             for (UIView *box in self.boxes) {
-                BOOL onscreen = CGRectIntersectsRect(self.view.bounds, box.frame);
+                CGRect screen = [[UIScreen mainScreen] bounds];
+                BOOL onscreen = CGRectIntersectsRect(screen, box.frame);
                 if (onscreen) return NO;
             }
             return YES;

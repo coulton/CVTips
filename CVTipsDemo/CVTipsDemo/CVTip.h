@@ -10,13 +10,35 @@
 
 @interface CVTip : NSObject
 
-@property (nonatomic, strong) NSString *title;
-@property (nonatomic, strong) UIImage *icon;
-@property (nonatomic, assign) UIFont *font;
+/**
+ *  The tip's title.
+ */
+@property (nonatomic, readonly) NSString *title;
+
+/**
+ *  The tip's icon.
+ */
+@property (nonatomic, readonly) UIImage *icon;
+
+/**
+ *  The tip's font.
+ */
+@property (nonatomic, readonly) UIFont *font;
+
+/**
+ *  Helper for determining if the tip has an icon or not.
+ */
 @property (readonly) BOOL hasIcon;
 
-- (id)initWithTitle:(NSString*)title
-               icon:(UIImage*)icon
-               font:(UIFont*)font;
+/**
+ *  Initialize a CVTip.
+ *
+ *  @param title The tip's title.
+ *  @param icon  Image to display.
+ *  @param font  The font for the tip's title.
+ *
+ *  @return An initialized CVTip.
+ */
+- (id)initWithTitle:(NSString *)title icon:(UIImage *)icon font:(UIFont *)font;
 
 @end

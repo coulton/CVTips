@@ -11,16 +11,17 @@
 const CGFloat kCVTipBoxInternalPadding = 20.0f;
 
 @interface CVTipView ()
-@property (nonatomic, strong) UILabel *label;
-@property (nonatomic, strong) UIImageView *icon;
-@property (nonatomic, strong) CVTip *tip;
-@property (nonatomic, strong) UIFont *font;
+
+@property (nonatomic) UILabel *label;
+@property (nonatomic) UIImageView *icon;
+@property (nonatomic) CVTip *tip;
+@property (nonatomic) UIFont *font;
+
 @end
 
 @implementation CVTipView
 
-- (id)initWithTip:(CVTip*)tip
-         andWidth:(CGFloat)width
+- (id)initWithTip:(CVTip *)tip andWidth:(CGFloat)width
 {
     self = [super init];
     if (self) {

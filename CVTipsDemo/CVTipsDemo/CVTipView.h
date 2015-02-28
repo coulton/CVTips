@@ -11,10 +11,24 @@
 
 @interface CVTipView : UIView
 
-- (id)initWithTip:(CVTip*)tip
-         andWidth:(CGFloat)width;
+/**
+ *  Initialize a CVTipsView.
+ *
+ *  @param tip   The given CVTip object.
+ *  @param width Width of the box.
+ *
+ *  @return A fully-initialized CVTipView.
+ */
+- (id)initWithTip:(CVTip *)tip andWidth:(CGFloat)width;
 
-+ (CGFloat)calculateBoxHeightWithTip:(CVTip*)tip
-                         andBoxWidth:(CGFloat)width;
+/**
+ *  Calcualtes the height with a given tip.
+ *
+ *  @param tip   The CVTip object containing the correct content.
+ *  @param width Width of the box.
+ *
+ *  @return Projected height of the CVTipView.
+ */
++ (CGFloat)calculateBoxHeightWithTip:(CVTip *)tip andBoxWidth:(CGFloat)width;
 
 @end

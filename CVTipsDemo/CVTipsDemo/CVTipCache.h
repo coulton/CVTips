@@ -11,13 +11,47 @@
 
 @interface CVTipCache : NSObject
 
+/**
+ *  @return Shared cache.
+ */
 + (CVTipCache *)sharedCache;
+
+/**
+ *  Wipe the cache.
+ */
 - (void)wipe;
 
-- (void)displayedTips:(NSArray*)tips;
-- (void)displayedTip:(CVTip*)tip;
+/**
+ *  Updates the tip cache with some tips.
+ *  Upon adding the tip to the cache, `shouldDisplayTip:` will return NO.
+ *
+ *  @param tips The tips displayed.
+ */
+- (void)displayedTips:(NSArray *)tips;
 
+/**
+ *  Updates the tip cache with a given tip.
+ *
+ *  @param tip The tip displayed.
+ */
+- (void)displayedTip:(CVTip *)tip;
+
+/**
+ *  Whether or not you should display certain tips.
+ *
+ *  @param tips Array of tips wishing to be presented.
+ *
+ *  @return BOOL indicating if the tips have been presented before.
+ */
 - (BOOL)shouldDisplayTips:(NSArray *)tips;
+
+/**
+ *  Whether or not you should display a given tip.
+ *
+ *  @param tip The tip wishing to be presented.
+ *
+ *  @return BOOL indicating if the tip has been presented before.
+ */
 - (BOOL)shouldDisplayTip:(CVTip *)tip;
 
 @end

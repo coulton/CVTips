@@ -8,22 +8,32 @@
 
 #import "CVTip.h"
 
+const CGFloat kCVTipDefaultFontSize = 15;
+
+@interface CVTip ()
+
+@property (nonatomic) NSString *title;
+@property (nonatomic) UIImage *icon;
+@property (nonatomic) UIFont *font;
+
+@end
+
 @implementation CVTip
 
-- (id)initWithTitle:(NSString*)title
-               icon:(UIImage*)icon
-               font:(UIFont*)font
+- (id)initWithTitle:(NSString*)title icon:(UIImage*)icon font:(UIFont*)font
 {
     self = [super init];
     if (self) {
         
         self.title = title;
         self.icon = icon;
-        self.font = font ? font : [UIFont systemFontOfSize:15];
+        self.font = font ? font : [UIFont systemFontOfSize:kCVTipDefaultFontSize];
         
     }
     return self;
 }
+
+#pragma mark - Getters
 
 - (BOOL)hasIcon
 {
