@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'CVTips'
-  spec.version          = '0.1'
+  spec.version          = '0.11'
   spec.license          = { :type => 'MIT', :file => 'LICENSE.txt' }
   spec.homepage         = 'https://github.com/coultonvento/CVTips'
   spec.author           = { 'Coulton Vento' => 'me@coultonvento.com' }
