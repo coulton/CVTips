@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.source           = { :git => 'https://github.com/coultonvento/CVTips.git', :tag => 'v0.1' }
   spec.source_files     = 'CVTips/*.{h,m}'
   spec.framework        = 'UIKit', 'Foundation'
-  spec.platform         = :ios, "8.1"
+  spec.platform         = :ios, "8.0"
   spec.requires_arc     = true
 end
