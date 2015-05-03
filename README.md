@@ -8,7 +8,7 @@ You can see CVTips in action in [Dwindle](https://itunes.apple.com/us/app/dwindl
 
 If you use [cocoapods](cocoapods.org) (you should), installation is easy.
 
-1. Add CVTips to your Podfile: `pod 'CVTips', '~> 0.1'`
+1. Add CVTips to your Podfile: `pod 'CVTips', '~> 0.11'`
 2. Run `pod install`
 
 If you don't use cocoapods, you can always manually import the files in the CVTips directory.

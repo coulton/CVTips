@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.author           = { 'Coulton Vento' => 'me@coultonvento.com' }
   spec.social_media_url = "http://twitter.com/coultonvento"
   spec.summary          = 'An interface for displaying interactive tips.'
-  spec.source           = { :git => 'https://github.com/coultonvento/CVTips.git', :tag => 'v0.1' }
+  spec.source           = { :git => 'https://github.com/coultonvento/CVTips.git', :tag => 'v0.11' }
   spec.source_files     = 'CVTips/*.{h,m}'
   spec.framework        = 'UIKit', 'Foundation'
   spec.platform         = :ios, "8.0"
