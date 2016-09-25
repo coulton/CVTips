@@ -23,7 +23,7 @@
 /**
  *  Tint color for the presented view.
  */
-@property (nonatomic, assign) UIColor *tintColor;
+@property (nonatomic) UIColor *tintColor;
 
 /**
  *  Initialize a tips controller with a given array of tips.

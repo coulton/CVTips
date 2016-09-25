@@ -24,8 +24,8 @@ typedef void (^CVTipsAnimatedOut)();
 @property (nonatomic) UIDynamicAnimator *animator;
 @property (nonatomic) UIAttachmentBehavior *attachmentBehavior;
 
-@property (nonatomic, assign) CGRect originalBounds;
-@property (nonatomic, assign) CGPoint originalCenter;
+@property (nonatomic) CGRect originalBounds;
+@property (nonatomic) CGPoint originalCenter;
 @property (nonatomic) NSArray *tips;
 @property (nonatomic) NSMutableArray *boxes;
 
